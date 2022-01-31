@@ -1,0 +1,17 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# SSL keys
+server/ssl
+server/ssl/*
+
+# Python
+__pycache__
+
+# Environment
+env
+
+# MACOS
+.DS_Store
